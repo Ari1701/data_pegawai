@@ -1,0 +1,233 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background: #50b3a2;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+.bg-section {
+    background-image: url('/pegawai/assets/img/bg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 650px; 
+    display: flex;
+    justify-content: flex-end; 
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.bg-content {
+    max-width: 600px;
+    padding: 20px;
+    color: #fffefe;
+}
+
+.bg-content h1,
+.bg-content p {
+    margin: 0;
+}
+
+.bg-content h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background: #50b3a2;
+    color: white;
+    padding: 0.5rem 1rem;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+nav a:hover {
+    background: #e2e2e2;
+    color: #333;
+}
+
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+section {
+    padding: 2rem;
+    text-align: center;
+}
+
+.about-section {
+    background-color: #f4f4f4; /* Warna latar belakang untuk bagian about */
+    padding: 50px 0;
+    text-align: center;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.about-content h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.about-content p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    color: #666;
+}
+
+.services-section {
+    background-color: #fff; /* Warna latar belakang untuk bagian layanan */
+    padding: 50px 0;
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+.service-box {
+    max-width: 300px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    margin: 20px;
+}
+
+.service-box h3 {
+    font-size: 1.5em;
+    color: #333;
+}
+
+.service-box p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.contact-section {
+    background-color: #ffffff; /* Warna latar belakang untuk bagian kontak */
+    color: #000000;
+    padding: 50px 0;
+    text-align: center;
+}
+
+.contact-section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.contact-section p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.contact-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.contact-section li {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+}
+
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem 0;
+}
+
+.modal {
+    display: none; 
+    position: fixed; 
+    z-index: 1; 
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0); 
+    background-color: rgba(0,0,0,0.4); 
+    padding-top: 60px;
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.modal.show {
+    display: block;
+    opacity: 1;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 80%;
+    max-width: 400px;
+    border-radius: 8px;
+}
+
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.login-form {
+    max-width: 300px;
+    margin: 0 auto;
+    padding: 2rem;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-form input {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.login-form button {
+    width: 100%;
+    padding: 0.5rem;
+    background: #50b3a2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.login-form button:hover {
+    background: #429188;
+}
